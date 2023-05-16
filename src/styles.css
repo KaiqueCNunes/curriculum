@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.github {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.contato {
+    letter-spacing: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.objetivo {
+    display: flex;
+    justify-content: center;
+}
+
+.objetivos {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.formacao {
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background-color: #ffffff;
+    justify-content: space-between;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.logo:hover {
+    border-radius: 10px;
+    transform: scale(1.13);
+    cursor: pointer;
+}
+
+.github:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.email:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.contato:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
